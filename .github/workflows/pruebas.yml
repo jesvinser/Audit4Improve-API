@@ -29,7 +29,7 @@ jobs:
       - name: Construcción del artefacto
         run: |
           chmod +x gradlew
-          ./gradlew assemble 
+          ./gradlew assemble
 
   test:
     runs-on: ubuntu-latest
